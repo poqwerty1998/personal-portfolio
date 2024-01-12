@@ -41,28 +41,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer",
+    title: "Graduated Post Secondary Studies",
     location: "Toronto, ON",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 5 years of my undergrad at the University of Toronto with a Bachelors of Science, as a Specialist in Software Engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Software Engineer",
-    location: "Toronto, ON",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021",
   },
   {
     title: "Junior Software Engineer",
     location: "Toronto, ON",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I worked at Angus Systems as a front-end Junior Software Engineer on the mobile team, developing the native Android version of the apps Connect and Contactless Entry with Kotlin.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2021 - Feb 2022",
+  },
+  {
+    title: "Software Engineer",
+    location: "Toronto, ON",
+    description:
+      "I worked at MRI Software LLC on the product Property Management X, focusing on enhancing the Investment Accounting Application with the technologies of C#, JavaScript, .NET, and SQL.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Feb 2022 - Nov 2023",
   },
 ] as const;
 
