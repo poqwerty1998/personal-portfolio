@@ -4,7 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import pmxApp from "@/public/PMXAPPage.png";
+import connectHomePage from "@/public/ConnectServiceRequestsPage.png"
+import contactlessEntry from "@/public/ContactlessEntry.png"
 
 export const links = [
   {
@@ -70,28 +72,28 @@ export const projectsData = [
     description:
       "A proptech platform catering to some of the world's largest and most complex real estate portfolios.",
     tags: ["C#", ".NET", "ASP.NET", "Javascript", "SQL"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: pmxApp,
   },
   {
     title: "Connect",
     description:
-      "A tenant experience app focused on allowing tenants to manage their property. Features include approving building entry requests, submit service requests for building maintenance, and creating building specific content posts.",
-    tags: ["Android", "Kotlin", "REST"],
-    imageUrl: rmtdevImg,
+      "A property tenant experience application focused on allowing tenants to manage their property.",
+    tags: ["Android", "Kotlin", "RESTful API"],
+    imageUrl: connectHomePage,
   },
   {
     title: "ContactlessEntry",
     description:
       "Allows property owners to screen visitors efficiently prior to building entry, and eliminates physical touch points and interactions during check-in.",
-      tags: ["Android", "Kotlin", "REST"],
-    imageUrl: corpcommentImg,
+      tags: ["Android", "Kotlin", "RESTful API"],
+    imageUrl: contactlessEntry,
   },
 ] as const;
 
 export const skillsData = [
   "Android",
   "Kotlin",
-  "REST",
+  "RESTful API",
   "C#",
   ".NET",
   "ASP.NET",
