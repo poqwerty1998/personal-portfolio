@@ -78,14 +78,14 @@ export const projectsData = [
     title: "Connect",
     description:
       "A property tenant experience application focused on allowing tenants to manage their property.",
-    tags: ["Android", "Kotlin", "RESTful API"],
+    tags: ["Android", "Kotlin", "REST"],
     imageUrl: connectHomePage,
   },
   {
     title: "ContactlessEntry",
     description:
       "Allows property owners to screen visitors efficiently prior to building entry, and eliminates physical touch points and interactions during check-in.",
-      tags: ["Android", "Kotlin", "RESTful API"],
+      tags: ["Android", "Kotlin", "REST"],
     imageUrl: contactlessEntry,
   },
 ] as const;
@@ -93,7 +93,7 @@ export const projectsData = [
 export const skillsData = [
   "Android",
   "Kotlin",
-  "RESTful API",
+  "RESTful APIs",
   "C#",
   ".NET",
   "ASP.NET",
