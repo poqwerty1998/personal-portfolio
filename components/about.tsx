@@ -46,7 +46,7 @@ export default function About() {
       </p>
       <p>
         During my free time, I enjoy playing
-        video games, watching documentary type videos, play the piano, and
+        video games, watching documentary type videos, playing the piano, and
         spending time with my family.{" "}
       </p>
     </motion.section>

@@ -39,24 +39,24 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineer",
+    location: "Toronto, ON",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer",
+    location: "Toronto, ON",
     description:
       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Junior Software Engineer",
+    location: "Toronto, ON",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
@@ -66,46 +66,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "PropertyManagementX",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A proptech platform catering to some of the world's largest and most complex real estate portfolios.",
+    tags: ["C#", ".NET", "ASP.NET", "Javascript", "SQL"],
+    imageUrl: wordanalyticsImg,
   },
   {
-    title: "rmtDev",
+    title: "Connect",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A tenant experience app focused on allowing tenants to manage their property. Features include approving building entry requests, submit service requests for building maintenance, and creating building specific content posts.",
+    tags: ["Android", "Kotlin", "REST"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "ContactlessEntry",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Allows property owners to screen visitors efficiently prior to building entry, and eliminates physical touch points and interactions during check-in.",
+      tags: ["Android", "Kotlin", "REST"],
+    imageUrl: corpcommentImg,
   },
 ] as const;
 
 export const skillsData = [
+  "Android",
+  "Kotlin",
+  "REST",
+  "C#",
+  ".NET",
+  "ASP.NET",
+  "SQL",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
