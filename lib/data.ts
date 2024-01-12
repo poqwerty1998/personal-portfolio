@@ -46,7 +46,7 @@ export const experiencesData = [
     description:
       "I graduated after 5 years of my undergrad at the University of Toronto with a Bachelors of Science, as a Specialist in Software Engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021",
+    date: "Sep 2016 - Jan 2021",
   },
   {
     title: "Junior Software Engineer",
