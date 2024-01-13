@@ -18,7 +18,7 @@ export default function Header() {
          border-white border-opacity-40
          bg-white bg-opacity-80 shadow-lg
           shadow-black/[0.03] backdrop-blur-[0.5rem]
-           sm:top-6 sm:h-[3.25rem] sm:w-[45rem] sm:rounded-full"
+           sm:top-6 sm:h-[3.25rem] sm:w-[38rem] sm:rounded-full"//sw:w-45rem to add personal section
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
