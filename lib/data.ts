@@ -1,9 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import pmxApp from "@/public/PMXAPPage.png";
 import connectHomePage from "@/public/ConnectServiceRequestsPage.png"
 import contactlessEntry from "@/public/ContactlessEntry.png"
@@ -61,7 +58,7 @@ export const experiencesData = [
     location: "Toronto, ON",
     description:
       "I worked at MRI Software LLC on the product Property Management X, focusing on enhancing the Investment Accounting Application with the technologies of C#, JavaScript, .NET, and SQL.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Feb 2022 - Nov 2023",
   },
 ] as const;

@@ -12,7 +12,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Skills");
+  const { ref } = useSectionInView("Experience", 0.5);
   const { theme } = useTheme();
 
   return (
@@ -40,7 +40,7 @@ export default function Experience() {
               date={experience.date}
               icon={experience.icon}
               iconStyle={{
-                background: theme === 'light' ? "white" : 'rgba(255, 255, 255, 0.15)',
+                background: theme === "light" ? "white" : "rgba(17, 24, 39, 1)",
                 fontSize: "1.5rem",
               }}
             >
