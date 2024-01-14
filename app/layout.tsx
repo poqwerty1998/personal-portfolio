@@ -6,7 +6,7 @@ import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +26,7 @@ export default function RootLayout({
         className={`${inter.className}
       bg-gray-50 text text-gray-950 relative pt-28 sm:pt:36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
+        <Analytics />
         <div
           className="bg-[#70c2a2] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem]
         rounded-full blur-[10rem] sm:w-[68.75rem]
@@ -38,7 +39,6 @@ export default function RootLayout({
         ></div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
-            <Analytics />
             <Header />
             {children}
             <Toaster position="bottom-right" />
