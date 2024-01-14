@@ -61,7 +61,7 @@ export const experiencesData = [
     location: "Toronto, ON",
     description:
       "I worked at MRI Software LLC on the product Property Management X, focusing on enhancing the Investment Accounting Application with the technologies of C#, JavaScript, .NET, and SQL.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Feb 2022 - Nov 2023",
   },
 ] as const;
